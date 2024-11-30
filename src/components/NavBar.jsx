@@ -15,10 +15,10 @@ export const NavBar = () => {
    {/* ////////////////// */}
     <div className="">
     <FiMenu onClick={handleClick} className="md:hidden text-2xl"/>
-    <ul className={`${showNav?"hidden": "flex-col " } md:flex md:flex-row gap-8 md:gap-10
+    <ul className={`${showNav? "hidden": "flex-col text-center" } md:flex md:flex-row gap-8 md:gap-10
      md:items-center
     fixed md:static top-20 left-0  md:w-auto 
-    bg-[#203350]  transition-all duration-300 w-[100%] z-40`}>
+    bg-[#203350]  transition-all duration-300 w-full z-40`}>
 
       {/* ////////// */}
        <a href="#about"> <li className="hover:bg-[#A5D7E86B] hover:px-4 hover:rounded-lg cursor-pointer py-1">About</li></a>
