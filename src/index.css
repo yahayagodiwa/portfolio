@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  @keyframes rotate-border {
+    0% {
+      transform: rotate(0deg);
+      border-color: transparent;
+    }
+    50% {
+      border-color: #4FD1C5; /* Color at half rotation */
+    }
+    100% {
+      transform: rotate(360deg);
+      border-color: transparent;
+    }
+  }
+
+  .animate-rotate-border {
+    animation: rotate-border 4s linear infinite;
+  }
