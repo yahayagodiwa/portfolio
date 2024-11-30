@@ -18,7 +18,7 @@ export const NavBar = () => {
     <ul className={`${showNav? "hidden": "flex-col text-center" } md:flex md:flex-row gap-8 md:gap-10
      md:items-center
     absolute md:static top-20 left-0 right-0 md:w-auto 
-    bg-[#203350]  transition-all duration-300 max-w-full z-40`}>
+    bg-[#203350] max-w-full z-40`}>
 
       {/* ////////// */}
        <a href="#about"> <li className="hover:bg-[#A5D7E86B] hover:px-4 hover:rounded-lg cursor-pointer py-1">About</li></a>
