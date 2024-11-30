@@ -9,7 +9,7 @@ export const NavBar = () => {
     setShowNav(!showNav)
   }
   return (
-    <nav className=" h-[38px] pb-14 z-10 pt-6 px-5 md:px-20 fixed top-0 left-0 right-0 w-[100%] bg-[#203350]">
+    <nav className=" h-[38px] pb-14 z-10 pt-6 px-5 md:px-20 fixed top-0 left-0 right-0 w-[100%] bg-[#203350] overflow-x-hidden">
 <div className=" text-white flex justify-between md:items-center ">
     <h1 className="text-xl font-bold">Yahya <span className="text-[#FF6347]">Godiwa</span> </h1>
    {/* ////////////////// */}
