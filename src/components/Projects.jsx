@@ -6,7 +6,7 @@ const projects = [
       technologies: ["HTML", "Tailwind CSS", "JavaScript"],
       links: {
         demo: "https://countries-search-js.vercel.app/",  
-        github: "#" 
+        github: "https://github.com/yahayagodiwa" 
       }
     },
     {
@@ -16,7 +16,7 @@ const projects = [
       technologies: ["Javascript", "Tailwind CSS", "API"],
       links: {
         demo: "https://dictionary-js-silk.vercel.app/",  
-        github: "#"
+        github: "https://github.com/yahayagodiwa"
       }
     },
     {
@@ -26,7 +26,7 @@ const projects = [
       technologies: ["HTML", "CSS", "JavaScript"],
       links: {
         demo: "https://food-menu-js.vercel.app/",  
-        github: "#" 
+        github: "https://github.com/yahayagodiwa" 
       }
     },
     {
@@ -36,7 +36,7 @@ const projects = [
       technologies: ["HTML", "CSS", "JavaScript"],
       links: {
         demo: "https://food-menu-js.vercel.app/",  
-        github: "#" 
+        github: "https://github.com/yahayagodiwa" 
       }
     }
   ];
@@ -69,8 +69,8 @@ export const Projects = () => {
                         <button className='px-3 py-1 bg-[#131d2c] rounded-xl'>{project.technologies[2]}</button>
                     </div>
                     <div className='flex gap-3 justify-center '>
-                        <button className='px-3 py-1 bg-slate-500 rounded-xl'> Link{project.links[0]} </button>
-                        <button className='px-3 py-1 bg-slate-500 rounded-xl'>Github{project.links[0]}</button>
+                        <button className='px-3 py-1 bg-slate-500 rounded-xl'><a href={project.links.demo}> Demo </a></button>
+                        <button className='px-3 py-1 bg-slate-500 rounded-xl'><a href={project.links.github}> Github </a></button>
                     </div>
             </div>
     
