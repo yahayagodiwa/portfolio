@@ -12,7 +12,7 @@ export const Skills = () => {
         Skills 
       </h2>
       <div className="flex flex-col md:flex-row gap-10">
-        <div>
+        <div className="ml-8 md:ml-0">
         <div className="flex gap-8">
           <span className="flex flex-col justify-center items-center">
             <FaHtml5 className="size-20 text-[#FF6347]" />
