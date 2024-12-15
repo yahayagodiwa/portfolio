@@ -1,4 +1,14 @@
 const projects = [
+  {
+    title: "URL Shortner",
+    description: "Short in link i a single click ",
+    image: flipper, 
+    technologies: ["HTML", "Tailwind", "React"],
+    links: {
+      demo: "https://url-shortner-mu-mocha.vercel.app/",  
+      github: "https://github.com/yahayagodiwa" 
+    }
+  },
     {
       title: "Country Search",
       description: "This is a project for country search. You can easily get any country info by just the name.",
@@ -29,16 +39,7 @@ const projects = [
         github: "https://github.com/yahayagodiwa" 
       }
     },
-    {
-      title: "Color flipper",
-      description: "a color flipper that generage random color for Hex or Rgb on each click. ",
-      image: flipper, 
-      technologies: ["HTML", "CSS", "JavaScript"],
-      links: {
-        demo: "https://food-menu-js.vercel.app/",  
-        github: "https://github.com/yahayagodiwa" 
-      }
-    }
+   
   ];
   
 
@@ -46,7 +47,7 @@ import country from '../assets/Countries.png'
 import dictionary from '../assets/dictionary.png'
 import menu from '../assets/food-menu.png'
 
-import flipper from '../assets/flipper.png'
+import flipper from '../assets/linkcut.png'
 
 
 export const Projects = () => {
@@ -58,7 +59,8 @@ export const Projects = () => {
           justify-center items-center mb-20" id='projects'>
         
         {projects.map((project, index)=> {
-           return <div className='bg-[#20324e] rounded-xl p-8 flex flex-col text-center md:text-left justify-center 
+           return <div className='bg-[#20324e] rounded-xl p-8 flex flex-col text-center md:text-left min-h-[394px]
+           justify-center 
            w-80 shadow-2xl' key={index}>
                 <img src={project.image} alt="godiwa" className='h-50'/>
                 <h2 className='text-[20px] font-semibold'>{project.title}</h2>
